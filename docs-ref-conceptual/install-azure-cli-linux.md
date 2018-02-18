@@ -39,7 +39,17 @@ Tanto si va a instalar como si va a actualizar la CLI, debe realizar una instala
 curl -L https://aka.ms/InstallAzureCli | bash
 ```
 
-También puede descargar el script y ejecutarlo localmente. Para que algunos cambios surtan efecto, es posible que tenga que reiniciar el shell. Después de la instalación, ejecute la CLI con el comando `az`.
+También puede descargar el script y ejecutarlo localmente. Para que
+algunos cambios surtan efecto, es posible que tenga que reiniciar el
+shell. Después de la instalación, ejecute la CLI con el comando `az`.
+
+La
+[CLI de Azure también está disponible en los repositorios de módulos de Python](https://pypi.python.org/pypi/azure-cli). Se
+puede instalar de la forma habitual
+
+	pip install azure-cli
+	
+tanto en Linux como en Windows o MacOS.
 
 ## <a name="troubleshooting"></a>solución de problemas
 
